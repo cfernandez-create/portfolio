@@ -49,10 +49,17 @@
 
 .project__pokemart {
   flex-basis: 50%;
+  margin-bottom: 70px;
 }
 
 .project__pokemart-description {
   flex-basis: 50%;
+}
+
+.project__pixer-description {
+  flex-basis: 50%;
+  margin-left: 25px;
+  padding-top: 20px;
 }
 
 .project__container h1 {
