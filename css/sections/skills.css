@@ -9,6 +9,10 @@
   width: 100%;
 }
 
+.skills__h4 {
+  display: none;
+}
+
 .skills__container legend {
   font-family: var(--playfair-display);
   font-weight: 600;
