@@ -1,0 +1,160 @@
+@media (max-width: 480px) {
+  .body {
+    width: 100vw;
+    padding: 0;
+  }
+  .header__nav {
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .skills {
+    overflow-x: auto;
+    width: 100vw;
+  }
+
+  .skills__container legend {
+    display: none;
+  }
+
+  .skills__h4 {
+    color: var(--secondary-color);
+    height: 45px;
+    background-color: white;
+    margin-top: -20px;
+    border-radius: 8px;
+    padding: 5px;
+    margin-left: -2px;
+  }
+
+  .projects__container {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+  }
+
+
+  .project__pokecenter-description h1{
+    scale: 0.8;
+    width: 100%;
+   }
+
+  .about__container {
+    display: absolute;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .about__text {
+    width: 100vw;
+    border: none;
+    display: relative;
+    top: 0;
+  }
+
+  .about__text p{
+    scale: 0.9;
+  }
+
+  .about__text h1{
+    scale: 0.9;
+  }
+
+  .about__hobbies {
+    scale: 1;
+    width: 100%;
+    padding-bottom: 50px;
+    color: var(--secondary-color);
+  }
+
+  .project__container img {
+    width: 290px;
+    margin-bottom: -25px;
+  }
+
+  .project__container .btn1 .btn2 {
+    width: 290px;
+    padding-bottom: 50px;
+  }
+
+ 
+}
+
+@media (max-width: 810px) {
+    .body {
+      width: 100vw;
+    }
+    .header__nav {
+      display: flex;
+      overflow: hidden;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .skills {
+      overflow-x: auto;
+      width: 100vw;
+    }
+  
+    .skills__container legend {
+      display: none;
+    }
+  
+    .skills__h4 {
+      color: var(--secondary-color);
+      height: 45px;
+      background-color: white;
+      margin-top: -20px;
+      border-radius: 8px;
+      padding: 5px;
+      margin-left: -2px;
+    }
+  
+    .projects__container {
+      margin: 0;
+      padding: 0;
+    }
+  
+    .about__container {
+      display: absolute;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .about__text {
+      width: 100vw;
+      border: none;
+      display: relative;
+      top: 0;
+    }
+  
+    .about__text p{
+      scale: 0.9;
+    }
+  
+    .about__text h1{
+      scale: 0.9;
+    }
+  
+    .about__hobbies {
+      scale: 1;
+      width: 100%;
+      padding-bottom: 50px;
+      color: var(--secondary-color);
+    }
+  
+    .project__container img {
+      width: 290px;
+      margin-bottom: -25px;
+    }
+  
+    .project__container .btn1 .btn2 {
+      width: 290px;
+      padding-bottom: 50px;
+    }
+  
+   
+  }
+  

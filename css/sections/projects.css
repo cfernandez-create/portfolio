@@ -1,0 +1,94 @@
+.projects__field {
+  margin-top: 50px;
+  font-family: var(--playfair-display);
+  font-weight: 600;
+  font-size: 2rem;
+  display: flex;
+  border-radius: 5px;
+  background-color: var(--primary-color);
+  border: none;
+}
+
+.projects__field legend {
+  font-family: var(--playfair-display);
+  font-weight: 600;
+  font-size: 2rem;
+  z-index: 9;
+  background: var(--primary-color);
+  border-radius: 5px;
+  padding: 8px;
+  color: var(--color-white);
+}
+
+.project__container {
+  padding: 20px;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.project__container img {
+  width: 290px;
+}
+
+.project__container h5 {
+  font-family: var(--plus-jakarta-sans);
+  font-size: 1.2rem;
+}
+
+.project__pokecenter-images {
+  flex-direction: row;
+  flex-basis: 50%;
+  margin-bottom: 70px;
+  margin-top: 40px;
+}
+
+.project__pokecenter-description {
+  flex-basis: 50%;
+}
+
+.project__pokemart {
+  flex-basis: 50%;
+}
+
+.project__pokemart-description {
+  flex-basis: 50%;
+}
+
+.project__container h1 {
+  flex: 1 1;
+  background-color: var(--primary-color);
+  color: var(--color-white);
+  padding: 20px;
+  flex-direction: row;
+}
+
+.project__container p {
+  margin-top: 0px;
+  color: var(--color-white);
+  padding: 20px;
+  font-family: var(--plus-jakarta-sans);
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.btn-1 {
+  flex: 1;
+  background-color: #222222;
+  color: var(--color-white);
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 0 25px 25px;
+}
+
+.btn-2 {
+  flex: 1;
+  background-color: transparent;
+  color: var(--color-white);
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+}
